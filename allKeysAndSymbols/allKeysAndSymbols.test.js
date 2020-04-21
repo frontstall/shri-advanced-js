@@ -21,9 +21,11 @@ test('object with prototype, key-stringed props and Symbols', () => {
   ancestor[Symbol.iterator] = function iterator() {
     return {
       next() {
-
+        return {
+          value: null,
+          done: true,
+        };
       },
-      done: true,
     };
   };
   const ancestor2 = Object.create(ancestor);
