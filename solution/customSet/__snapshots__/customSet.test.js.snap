@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should accept only iterables 1`] = `"[object Object] is not iterable"`;
+
+exports[`should accept only iterables 2`] = `"1 is not iterable"`;
+
+exports[`should accept only iterables 3`] = `"null is not iterable"`;
+
+exports[`should accept only iterables 4`] = `"() => {} is not iterable"`;
