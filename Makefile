@@ -6,3 +6,6 @@ lint:
 
 install:
 	npm install
+
+develop:
+	npm run test:watch
